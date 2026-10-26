@@ -292,7 +292,7 @@ export async function runAgent(
 
                 metrics: {
                     llmCalls: metrics.llmCalls,
-                    toolCall: metrics.toolCalls,
+                    toolCalls: metrics.toolCalls,
                     llmTimeMs:
                         Math.round(
                             metrics.llmTimeMs
